@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>TransMorph</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="./FCM_seg_files/style.css" />
+        <link rel="icon" href="./FCM_seg_files/android-chrome-512x512.png" />
+        <script async="async" src="./TransMorph_files/js" />
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-5RNSCC9852');
+        </script>
+    </head>
+    <body data-new-gr-c-s-check-loaded="14.1102.0" data-gr-ext-installed="">
+    
+        <h1>Learning fuzzy clustering for SPECT/CT segmentation via convolutional neural networks</h1>
+        <ul id="top">
+            <li>
+                <a href="https://github.com/junyuchen245/Semi-supervised_FCM_Loss_for_Segmentation">Code</a>
+            </li>
+            <li>
+                <a href="https://arxiv.org/abs/2104.08623">arXiv</a>
+            </li>
+            <li>
+                <a href="https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.14903">Paper</a>
+            </li>
+            <li>
+                <a href="https://github.com/junyuchen245/TransMorph/blob/main/FCM_seg_files/citation_bibtex.txt">Cite</a>
+            </li> 
+        </ul>
+        
+        <div id="authors">
+            <a href="https://junyuchen.me/">Junyu Chen</a>,
+            <a href="https://scholar.google.com/citations?user=Zy1GPkUAAAAJ&hl=en">Ye Li</a>,
+            Licia P. Luna, 
+            Hyun W. Chung, 
+            <a href="https://scholar.google.com/citations?user=RMB9KSUAAAAJ&hl=en">Steven P. Rowe</a>, 
+            <a href="https://scholar.google.com/citations?user=rXoK-TcAAAAJ&hl=en">Yong Du</a>,
+	    Lilja B. Solnes,
+	    <a href="https://scholar.google.com/citations?user=_-K45vUAAAAJ&hl=en">Eric C. Frey</a>
+        </div>
+
+
+        <div id="journal">
+            Medical physics, 48(7), 3860-3877, 2021.
+        </div>
+
+        <h2>Summary</h2>
+        <p class="justify">
+            we proposed a set of novel FCM-based loss functions for semi-, unsupervised, and supervised SPECT/CT segmentation using deep neural networks. 
+	    An advantage of the proposed loss functions is that they enable the ConvNets to consider both voxel intensity and semantic information in the image during the training stage. 
+            The proposed loss functions also retain the fundamental property of the conventional fuzzy clustering, where the fuzzy overlap between the channels of softmax outputs can be adjusted by a hyper-parameter in the loss function. Various experiments demonstrated that the model trained using a dataset of simulated images generalized well and led to fast and robust segmentation on both simulated and clinical SPECT/CT images.
+        </p>
+
+
+        <h2>Network Architecture</h2>
+        <img class="figure" src="./FCM_seg_files/architecture.jpg" alt="TransMorph architecture" />
+        
+        <h2>Qualitative Results</h2>
+        <img class="figure" src="./FCM_seg_files/membership_func.jpg" alt="Qualitative results on IXI dataset" />
+
+        <h2>Registration accuracy</h2>
+        <img class="figure" src="./FCM_seg_files/seg_dsc.jpg" alt="Registration accuracy (Dice score) on IXI dataset" />
+        
+
+        <h2 id="bibtex">BibTex</h2>
+        <code class="justify">
+            @article{chen2021learning,<br />
+  		title={Learning fuzzy clustering for SPECT/CT segmentation via convolutional neural networks},<br />
+  		author={Chen, Junyu and Li, Ye and Luna, Licia P and Chung, Hyun W and Rowe, Steven P and Du, Yong and Solnes, Lilja B and Frey, Eric C},<br />
+  		journal={Medical physics},<br />
+  		volume={48},<br />
+  		number={7},<br />
+  		pages={3860--3877},<br />
+  		year={2021},<br />
+  		publisher={Wiley Online Library}<br />
+		}
+        </code>
+        
+    </body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true" /></html>
