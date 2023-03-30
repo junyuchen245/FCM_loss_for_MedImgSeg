@@ -1,9 +1,10 @@
-@article{chen2022transmorph,
-  title={Transmorph: Transformer for unsupervised medical image registration},
-  author={Chen, Junyu and Frey, Eric C and He, Yufan and Segars, William P and Li, Ye and Du, Yong},
-  journal={Medical image analysis},
-  volume={82},
-  pages={102615},
-  year={2022},
-  publisher={Elsevier}
+@article{chen2021learning,
+  title={Learning fuzzy clustering for SPECT/CT segmentation via convolutional neural networks},
+  author={Chen, Junyu and Li, Ye and Luna, Licia P and Chung, Hyun W and Rowe, Steven P and Du, Yong and Solnes, Lilja B and Frey, Eric C},
+  journal={Medical physics},
+  volume={48},
+  number={7},
+  pages={3860--3877},
+  year={2021},
+  publisher={Wiley Online Library}
 }
